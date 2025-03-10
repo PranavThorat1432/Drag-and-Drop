@@ -15,7 +15,7 @@ A simple and interactive **Drag & Drop** web application that allows users to mo
 
 ## 📸 Project Preview
 
-![Drag & Drop Preview](drag_drop_screenshot.png)
+[Drag & Drop Preview](https://drag-and-drop-six-iota.vercel.app/)
 
 ---
 
@@ -86,6 +86,7 @@ This project is **open-source** and available under the **MIT License**.
 
 ## 📬 Connect With Me
 💡 **Developed by**: Pranav Thorat
+
 🔗 GitHub: [Click Here](https://github.com/PranavThorat1432)  
 🔗 LinkedIn: [Click Here](https://linkedin.com/in/curiouspranavthorat/)    
 
