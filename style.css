@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Martel+Sans&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #0b0423;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left, #right {
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed white;
+}
+
+#left, #right {
+    border: 2px dashed white;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#left:hover, #right:hover {
+    border-color: #e91e63;
+}
+
+
+.list {
+    background-color: #e91e63;
+    height: 60px;
+    margin: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+.list img {
+    width: 10px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+/* Media query for screen widths of 480px or smaller */
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;  
+        justify-content: flex-start; 
+        padding: 20px; 
+    }
+
+    #left, #right {
+        width: 100%; 
+        margin: 10px 0; 
+        min-height: 300px; 
+    }
+
+    .list {
+        margin: 20px; 
+        height: 50px; 
+        font-size: 14px; 
+    }
+
+    .list img {
+        width: 12px; 
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+}
